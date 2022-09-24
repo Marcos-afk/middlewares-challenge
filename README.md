@@ -30,7 +30,7 @@ yarn dev
 
 ### :heavy_check_mark: Requisitos
 
-- [] checksExistsUserAccount deve verificar a existência do usuário com base no username passado;
-- [] checksCreateTodosUserAvailability deve verificar se o usuário está no plano grátis e se ainda não possui 10 todos;
-- [] checksTodoExists deve validar o usuário, validar que o id seja um uuid e também deve validar que esse id pertence a um todo do usuário informado.;
-- [] findUserById funcionamento semelhante ao middleware checksExistsUserAccount mas a busca pelo usuário deve ser feita através do id de um usuário passado por parâmetro na rota;
+- [x] checksExistsUserAccount deve verificar a existência do usuário com base no username passado;
+- [x] checksCreateTodosUserAvailability deve verificar se o usuário está no plano grátis e se ainda não possui 10 todos;
+- [x] checksTodoExists deve validar o usuário, validar que o id seja um uuid e também deve validar que esse id pertence a um todo do usuário informado.;
+- [x] findUserById funcionamento semelhante ao middleware checksExistsUserAccount mas a busca pelo usuário deve ser feita através do id de um usuário passado por parâmetro na rota;
